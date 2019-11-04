@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Calculadora</h1>
+        <div id="calc">
+            <div class="tela" >0</div>
+            <button class="button triple" onclick="clearMemory()">AC</button>
+            <button class="button operation" onclick="operation(this)">/</button>
+            <button class="button" onclick="number(this)">7</button>
+            <button class="button" onclick="number(this)">8</button>
+            <button class="button" onclick="number(this)">9</button>
+            <button class="button operation" onclick="operation(this)">*</button>
+            <button class="button" onclick="number(this)">4</button>
+            <button class="button" onclick="number(this)">5</button>
+            <button class="button" onclick="number(this)">6</button>
+            <button class="button operation" onclick="operation(this)">+</button>
+            <button class="button" onclick="number(this)">1</button>
+            <button class="button" onclick="number(this)">2</button>
+            <button class="button" onclick="number(this)">3</button>
+            <button class="button operation" onclick="operation(this)">-</button>
+            <button class="button double" onclick="number(this)">0</button>
+            <button class="button" onclick="number(this)">.</button>
+            <button class="button operation" onclick="operation(this)">=</button>
+
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
